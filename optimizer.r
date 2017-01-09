@@ -1,8 +1,8 @@
 # Portfolio Optimizer
-A <- read.csv("appl.csv")
-B <- read.csv("fb.csv")
-C <- read.csv("nvda.csv")
-D <- read.csv("googl.csv")
+A <- read.csv("datasets/appl.csv")
+B <- read.csv("datasets/fb.csv")
+C <- read.csv("datasets/nvda.csv")
+D <- read.csv("datasets/googl.csv")
 
 # Historical stock prices of NASDAQ	listed comapanies(weekly frequency)
 p <- structure(c(A$Close, B$Close, C$Close, D$Close), .Dim = c(52, 4), .Dimnames = list(NULL, c("APPLE", "FACEBOOK", "NVIDIA", "GOOGLE")))
